@@ -10,43 +10,46 @@ body {
 }
 .paveikslas {
     display: inline-block;
-    margin: 0px 60px 0px 0px;
+    margin: 6px 60px 0px 2px;
 }
-.blokas {
+.mygtukasirtekstas {
     display: inline-block;
     text-align: center;
     position: relative;
     top: -48px;
     left: -20px;
-    max-width: 220px;
-    word-break: break-all;
+    width: 240px;
     font-family: 'Trebuchet MS';
+    margin-left: 20px;
 }
-.nerasta {
+.headeris {
     color: rgb(52, 62, 72);
-    font-size: 50px;
-    font-weight: 999;
+    font-size: 62px;
+    margin: 0;
 }
-.paaiskinimas {
+.paragrafas1 {
     color: rgb(83, 85, 110);
-    margin-top: 9px;
-    font-weight:200;
+    margin-top: 8px;
+    font-size: 16px;
 }
-.paaiskinimas2 {
+.paragrafas2 {
     color: rgb(83, 85, 110);
-    font-family: 'Trebuchet MS' 'sans-serif';
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 30px;
-    font-weight: 200;
+    margin-bottom: 16px;
+    word-spacing: 1px;
 }
 .mygtukas {
     background-color: rgb(105, 110, 139);
-    color: rgb(234, 235, 237);
-    width: 110px;
-    height: 35px;
-    margin-top: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 12px;
 }
-button:hover {
+a:hover {
     background-color: rgb(223, 255, 255);
     color: black;
+    border: 1px solid black;
+    margin: 0;
+    border-radius:2px;
 }
